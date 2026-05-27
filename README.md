@@ -98,12 +98,11 @@ coding-thailand-edge-ai-workshop/
 
 เวลาเตรียม session ให้เริ่มจาก:
 
-1. เช็คอุปกรณ์จาก [docs/00-equipment-checklist.md](docs/00-equipment-checklist.md)
+1. เตรียมของที่จะแจกแต่ละทีมตาม [docs/00-equipment-checklist.md](docs/00-equipment-checklist.md)
 2. ปรับ [docs/01-schedule.md](docs/01-schedule.md) และ [slides/day1-outline.md](slides/day1-outline.md) ให้ตรงกับบริบทของห้อง
 3. ใช้ [docs/03-rubric.md](docs/03-rubric.md) เป็นเกณฑ์ประเมินกลาง
 
 ไฟล์ที่เป็นมุมมองครู/วิทยากรโดยตรง:
-- [docs/00-equipment-checklist.md](docs/00-equipment-checklist.md)
 - [slides/day1-outline.md](slides/day1-outline.md)
 - [labs/anchor-demo/README.md](labs/anchor-demo/README.md)
 
