@@ -10,7 +10,7 @@
 
 ## ข้อมูลทีม + Edge Impulse
 
-- **ชื่อทีม:** _________________
+- **ชื่อทีม:** __chick peter pig___
 - **Edge Impulse Project URL:**
   ```
   https://studio.edgeimpulse.com/studio/XXXXX
