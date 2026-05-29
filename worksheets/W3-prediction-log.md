@@ -32,14 +32,14 @@
 |---|---|---|---|---|---|---|---|---|
 | 1 | ตัวอย่าง: เดินช้าๆ ในห้อง | เดิน | 0.89 | 180 ms | Pixels เขียว | เดิน | ✅ ถูก | ดี |
 | 2 | ตัวอย่าง: นั่งลงเร็วๆ | ล้ม | 0.62 | 210 ms | Buzzer ดัง | นั่ง | ❌ ผิด | confidence ไม่สูง, classifier confuse กับการเปลี่ยน posture เร็ว |
-| 3 | ใบสีเขียวอ่อน | lightgreen | 0.70 | 50 s | | | | |
-| 4 | ใบสีเขียวเข้ม | darkgreen| 0.95 | 45 s | | | | |
-| 5 | ใบสีเหลือง | yellow| 0.86 | 68 s| | | | |
-| 6 | ใบสีเขียวเข้ม | darkgreen | 0.78 | 68 s| | | | |
-| 7 | ใบสีเขียวปกติ | yellow | 0.43 | 23 s | | | | |
-| 8 | ใบสีเหลือง | normalgreen | 0.37 | 32 s| | | | |
-| 9 | ใบสีเขียวอ่อน | lightgreen | 0.82 | 82 s | | | | |
-| 10 | ใบสีเขียวปกติ | normalgreen | 0.89 | 37 s | | | | |
+| 3 | ใบสีเขียวอ่อน | lightgreen | 0.70 | 50 s | Modulino Pixels สีเหลือง | lightgreen | ถูก | ดี |
+| 4 | ใบสีเขียวเข้ม | darkgreen | 0.95 | 45 s | Modulino Pixels สีเขียวเข้ม | darkgreen | ถูก | ดี |
+| 5 | ใบสีเหลือง | yellow| 0.86 | 68 s| Modulino Pixels สีส้ม | yellow | ถูก | ดี |
+| 6 | ใบสีเขียวเข้ม | darkgreen | 0.78 | 68 s| Modulino Pixels สีเขียวเข้ม | darkgreen | ถูก | ดี |
+| 7 | ใบสีเขียวปกติ | yellow | 0.43 | 23 s | Modulino Pixels สีส้ม | normalgreen | ผิด | สีใบใกล้เคียงกันมาก ai สับสน |
+| 8 | ใบสีเหลือง | normalgreen | 0.37 | 32 s| Modulino Pixels สีเขียวอ่อน | yellow | ผิด| สีใบใกล้เคียงกันมาก ai สับสน |
+| 9 | ใบสีเขียวอ่อน | lightgreen | 0.82 | 82 s | Modulino Pixels สีเหลือง | lightgreen | ถูก | ดี |
+| 10 | ใบสีเขียวปกติ | normalgreen | 0.89 | 37 s | Modulino Pixels สีเขียวอ่อน | normalgreen | ถูก | ดี |
 
 ### V1 Summary
 
