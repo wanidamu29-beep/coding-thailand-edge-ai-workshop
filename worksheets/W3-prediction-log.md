@@ -10,7 +10,7 @@
 
 ## ข้อมูลทีม
 
-- **ชื่อทีม:** ____________
+- **ชื่อทีม:** ___Chick Peter Pig____
 - **Model Version ที่ทดสอบ:** ☐ V1 (ทดสอบครั้งแรก)  ☐ V2 (หลัง iterate)
 
 ---
@@ -19,12 +19,12 @@
 
 ### Setup
 
-- **เวลาเริ่มทดสอบ:** _____
-- **เวลาเสร็จ:** _____
+- **เวลาเริ่มทดสอบ:** __14.00__
+- **เวลาเสร็จ:** __14.30__
 - **Model link ใน Edge Impulse:** _________________
-- **สภาพแวดล้อมที่ทดสอบ:** _________________
-- **Output ที่ใช้ทดสอบ:** _________________
-- **Threshold ที่ใช้ (ถ้ามี):** _________________
+- **สภาพแวดล้อมที่ทดสอบ:** _____ห้องปฏิบัติการ/พื้นที่กลางแจ้งที่มีสภาพแสงธรรมชาติแปรปรวนและมีเงาตกกระทบ_____
+- **Output ที่ใช้ทดสอบ:** ___บอร์ดAduino UNO Q______________
+- **Threshold ที่ใช้ (ถ้ามี):** _____0.50____________
 
 ### Prediction Log V1
 
@@ -102,25 +102,25 @@
 |2|ใบสีเขียวอ่อน|lightgreen|0.88|45 ms|Pixels สีเหลือง|lightgreen|ถูก|[x] เท่าเดิม|
 |3|ใบสีเขียวอ่อน|lightgreen|0.90|41 ms|Pixels สีเหลือง|lightgreen|ถูก|[x] เท่าเดิม|
 |4|ใบสีเขียวเข้ม|darkgreen|0.97|40 ms|Pixels สีเขียวเข้ม|darkgreen|ถูก|[x] เท่าเดิม|
-|5|ใบสีเหลือง,yellow,0.94,43 ms,Pixels สีส้ม,yellow,ถูก,[x] เท่าเดิม|
-|6|ใบสีเขียวเข้ม,darkgreen,0.92,45 ms,Pixels สีเขียวเข้ม,darkgreen,ถูก,[x] เท่าเดิม|
-|7|ใบสีเขียวปกติ,normalgreen,0.84,48 ms,Pixels สีเขียวอ่อน,normalgreen,ถูก,[x] ดีขึ้น|
-|8|ใบสีเหลือง,yellow,0.81,47 ms,Pixels สีส้ม,yellow,ถูก,[x] ดีขึ้น|
-|9|ใบสีเขียวอ่อน,lightgreen,0.93,42 ms,Pixels สีเหลือง,lightgreen,ถูก,[x] เท่าเดิม|
-|10|ใบสีเขียวปกติ,normalgreen,0.95,40 ms,Pixels สีเขียวอ่อน,normalgreen,ถูก,[x] เท่าเดิม|
-|11|แสงเงาพาดผ่าน,darkgreen,0.86,50 ms,Pixels สีเขียวเข้ม,darkgreen,ถูก,new case|
-|12ผิวสะท้อนแดดจ้า,normalgreen,0.78,49 ms,Pixels สีเขียวอ่อน,normalgreen,ถูก,new case|
-|13|ใบสีเหลืองซีด,yellow,0.82,47 ms,Pixels สีส้ม,yellow,ถูก,new case|
-|14|ใบเขียวอ่อนจาง,lightgreen,0.79,52 ms,Pixels สีเหลือง,lightgreen,ถูก,new case|
-|15|พุ่มไม้ซ้อนหลัง,lightgreen,0.52,55 ms,Pixels สีเหลือง,normalgreen,ผิด,new case|
+|5|ใบสีเหลือง|yellow|0.94|43 ms|Pixels สีส้ม|yellow|ถูก,[x] เท่าเดิม|
+|6|ใบสีเขียวเข้ม|darkgreen|0.92|45 ms|Pixels สีเขียวเข้ม|darkgreen|ถูก|[x] เท่าเดิม|
+|7|ใบสีเขียวปกติ|normalgreen|0.84|48 ms|Pixels สีเขียวอ่อน|normalgreen|ถูก|[x] ดีขึ้น|
+|8|ใบสีเหลือง|yellow|0.81|47 ms|Pixels สีส้ม|yellow|ถูก|[x] ดีขึ้น|
+|9|ใบสีเขียวอ่อน|lightgreen|0.93|42 ms|Pixels สีเหลือง|lightgreen|ถูก|[x] เท่าเดิม|
+|10|ใบสีเขียวปกติ|normalgreen|0.95|40 ms|Pixels สีเขียวอ่อน|normalgreen|ถูก|[x] เท่าเดิม|
+|11|แสงเงาพาดผ่าน|darkgreen|0.86|50 ms|Pixels สีเขียวเข้ม|darkgreen|ถูก|new case|
+|12|ผิวสะท้อนแดดจ้า|normalgreen|0.78|49 ms|Pixels สีเขียวอ่อน|normalgreen|ถูก|new case|
+|13|ใบสีเหลืองซีด|yellow|0.82|47 ms|Pixels สีส้ม|yellow|ถูก|new case|
+|14|ใบเขียวอ่อนจาง|lightgreen|0.79|52 ms|Pixels สีเหลือง|lightgreen|ถูก|new case|
+|15|พุ่มไม้ซ้อนหลัง|lightgreen|0.52|55 ms|Pixels สีเหลือง|normalgreen|ผิด|new case|
 ### V2 Summary
 
 | Metric | V1 | V2 | Δ |
 |---|---|---|---|
-| Accuracy | __% | __% | +/-__% |
-| Avg confidence (ถูก) | __ | __ | +/-__ |
-| Avg confidence (ผิด) | __ | __ | +/-__ |
-| Avg response time | __ ms | __ ms | +/-__ ms |
+| Accuracy | _80_% | _93.33_% | +_13.33_% |
+| Avg confidence (ถูก) | _0.95_ | _0.99_ | +_0.04_ |
+| Avg confidence (ผิด) | _0.40_ | _0.52_ | +_0.12_ |
+| Avg response time | _51_ ms | _46_ ms | -_5_ ms |
 
 ---
 
