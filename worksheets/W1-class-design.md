@@ -73,9 +73,9 @@
 
 ## 4. Data Collection Plan
 
-| Class | จำนวน samples | ระยะเวลา/sample | สภาพแวดล้อมที่จะเก็บ |
+| Class B | จำนวน samples | ระยะเวลา/sample | ใบไม้ |
 |---|---|---|---|
-| | | | |
+|| | | |
 | | | | |
 | | | | |
 
